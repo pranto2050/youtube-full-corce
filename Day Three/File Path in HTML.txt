@@ -1,0 +1,8 @@
+
+
+
+
+
+Tow Type Of pate Have --
+1. Absolute Path --- ./ logo.png
+2. Relative path ../photo------ web/img/logo/logo.png
