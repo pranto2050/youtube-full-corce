@@ -1,0 +1,46 @@
+
+
+
+/* Type Of Position */
+/* 1. Static *
+/* 2. Relative     -> If use it On this time relative do not live the original position, If you move the text but original position is empty, but this empty place is not take any content is empty means this empty */
+/* 3. Fixed */
+/* 4. Absolute */
+
+
+
+
+/* Class Name: <h1 class="firstHellow"> Hello One </h1> */
+/* Move to other Position to Original Position.  If Position is set Relative than move left or right/ top or bottom */
+.firstHellow{
+	background: rgb(238, 77, 77);
+	position: relative;
+	left: 100px;
+	top: 100px;
+}
+
+/* Id Name : <h2 id="secoundHello"> Hello Two </h2>*/
+/* If Position Fixed: Do not Move it */
+#secoundHello{
+	background: rgb(83, 84, 242);
+	position: fixed;
+	top: 0px;
+	left: 200px;
+}
+
+
+
+
+/* Class Name: <h3 class="forthHello"> Hello Three </h3> */
+/* Use Absolute if the move others place. The original Place fill the others content / take the content */
+.forthHello{
+	background: rgb(83, 84, 242);
+	position: absolute;
+	top: 300px;
+	left: 200px;
+	z-index: 10;
+}
+
+
+
+

@@ -1,0 +1,31 @@
+
+
+/* Class Base Selector */
+.first{
+	background: rgb(132, 233, 240)
+}
+
+/* ID Base Selector */
+#first{
+	background: rgb(222, 241, 131)
+}
+
+
+
+/* Group Base Selector */
+/* Here is Two Selector one time Select It's called Group Base Selector */
+
+.first_Paragraph , .second_Paragraph{
+	font-size: 20px;
+}
+
+
+/* Inline CSS */
+/* First ID */
+/* Class */
+/* Tag */
+
+
+h1{
+	background: yellowgreen;
+}
