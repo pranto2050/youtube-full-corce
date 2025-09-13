@@ -1,0 +1,21 @@
+
+
+.backPart{
+	background: rgb(4, 143, 12);
+	height: 300px;
+	width: 500px;
+	border-radius: 10px;
+	position: absolute;
+	z-index: 0;
+}
+.fontPart{
+	background: rgb(246, 5, 5);
+	height: 200px;
+	width: 200px;
+	z-index: 10;
+	position: absolute;
+	border-radius: 100%;
+	top: 20%;
+	left: 10%
+	
+}

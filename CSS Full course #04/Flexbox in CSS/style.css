@@ -1,0 +1,36 @@
+
+
+
+
+.contaner{
+	height: 500px;
+	width: 500px;
+	background-color: rgb(142, 241, 152);
+	display: flex;
+	/* flex-direction: column; */
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	flex-wrap: wrap;
+	
+}
+
+.one{
+	background-color: rgb(234, 138, 138);
+	height: 100px;
+	width: 100px;
+	/* flex-grow: 1; */
+	flex-basis: 200px;
+	
+}
+.two{
+	background-color: rgb(60, 70, 241);
+	height: 100px;
+	width: 100px;
+}
+.three{
+	background-color: rgb(236, 241, 60);
+	height: 100px;
+	width: 100px;
+	/* flex-grow: 3; */
+}
