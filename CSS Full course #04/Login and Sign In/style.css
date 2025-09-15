@@ -1,0 +1,12 @@
+
+
+
+
+
+
+ .grid_system_one{
+	  /* background: rgb(78, 204, 224); */
+	  display: grid;
+	  grid-template-rows: 200px 200px;
+	  grid-template-columns: 200px 200px; 
+  } 
