@@ -1,0 +1,13 @@
+
+
+.nain_div{
+	display: flex;
+	background: rgb(75, 94, 190);
+}
+@media screen and (max-width: 600px) {
+
+	.nain_div{
+		flex-direction: column;
+		background: rgb(185, 25, 155);
+	}
+}
