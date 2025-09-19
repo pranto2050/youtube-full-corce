@@ -1,0 +1,50 @@
+
+
+.full_containt{
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-template-rows: 2fr 1fr;
+	/* flex-direction: row; */
+	gap: 20px
+}
+
+.continer_one{
+	text-align: center;
+	background: rgb(244, 108, 108);
+	height: 200px;
+	width: 500px;
+}
+
+
+
+.continer_three{
+	text-align: center;
+	background: rgb(109, 7, 84);
+	height: 200px;
+	width: 500px;
+}
+
+.continer_four{
+	text-align: center;
+	background: rgb(3, 146, 104);
+	height: 200px;
+	width: 500px;
+}
+.continer_one:hover{
+	background-color: rgb(48, 247, 118);
+}
+
+.continer_two{
+	text-align: center;
+	background: rgb(224, 5, 5);
+	height: 200px;
+	width: 500px;
+	/* transition-property: background-color; */
+	transition-duration: 1s;
+}
+
+.continer_two:hover{
+	background-color: rgb(24, 47, 243);
+	cursor: pointer;
+	
+}
