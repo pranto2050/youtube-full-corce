@@ -13,15 +13,126 @@ body{
 	grid-template-columns: 350px 1fr;
 	gap: 40px;
 	margin: auto;
+	margin-top: 20px;
 }
 
 .left_side_bar{
+	padding: 20px;
 	height: 90vh;
-	background-color: rgb(63, 63, 63);
+	background-color: #2a2a2a;
+	border: 1px solid #3a3a3a;
+	border-radius: 10px;
+	border: 1px solid #3a3a3a;
 }
+/* .profile{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+} */
+/* OR */
+.profile{
+	text-align: center;
+}
+.left_side_bar .profile img{
+	border-radius: 50%;
+	height: 120px;
+	width: 120px;
+	
+}
+.profile h1{
+	margin-top: 10px;
+	color: rgb(212, 208, 208);
+}
+.profile p{
+	color: #FFBF00;
+	background-color: #1e1e1e;
+	padding: 5px 15px;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+.contruct{
+	color: rgb(212, 208, 208);
+	border-top: 2px solid #3a3a3a;
+	margin-top: 30px;
+	padding-top: 30px;
+	
+	padding-bottom: 30px;
+	border-bottom: 2px solid #3a3a3a;
+	
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.social_media_section{
+	text-align: center;
+}
+.social_media_section img{
+	margin: 10px;
+	height: 25px;
+	filter: brightness(0) saturate(100%) invert(50%) sepia(94%) saturate(2244%) hue-rotate(168deg) brightness(103%) contrast(105%);
+}
+
 
 
 .main_section{
+	padding: 20px;
 	height: 90vh;
-	background-color: rgb(63, 63, 63);
+	background-color: #2a2a2a;
+	border: 1px solid #3a3a3a;
+	border-radius: 10px;
 }
+
+/* .nav_bar{
+	text-align: right;
+} */
+nav {
+	display: flex;
+	justify-content: flex-end;
+	gap: 20px;
+	border-bottom: 2px solid #3a3a3a;
+	padding-bottom: 20px;
+}
+.navbar_section a {
+	text-decoration: none;
+	color: rgb(212, 208, 208);
+	transition: color 0.3s ease;
+}
+
+.navbar_section .active {
+	color: #FFBF00;
+}
+.navbar_section a:hover{
+	color: #FFBF00;
+}
+
+.about_section h1{
+	color: rgb(212, 208, 208);
+}
+.marker_line{
+	height: 5px;
+	width: 150px;
+	background-color: #FFBF00;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.about_section{
+	margin-top: 20px;
+}
+.about_section p{
+	color: rgb(212, 208, 208);
+}
+
+.skills_section{
+	margin-top: 50px;
+	color: rgb(212, 208, 208);
+}
+
+
+
+
+
+
+
