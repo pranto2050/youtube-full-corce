@@ -38,10 +38,24 @@ function getRandomInt(min, max) {
 // Furmula---- that is
 
 
-let number_start = 10;
-let number_end = 22;
+// let number_start = 10;
+// let number_end = 22;
+//
+// let randomNum = Math.ceil(Math.random() * (number_end - number_start + 1)) + number_start;
+// console.log(randomNum);
 
-let randomNum = Math.ceil(Math.random() * (number_end - number_start + 1)) + number_start;
-console.log(randomNum);
 
 
+// For Desite Randam OTP Generate
+
+// console.log(Math.floor(Math.random()*(9999-1000+1))+10);
+
+
+// Work Function
+
+function random_number(max_num,min_number){
+    return Math.floor(Math.random()*(max_num -min_number +1)+min_number);
+}
+
+// Call Function for Random Number
+console.log(getRandomInt(1000,9999));
