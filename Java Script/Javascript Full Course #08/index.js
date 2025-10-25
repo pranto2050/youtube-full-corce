@@ -78,11 +78,11 @@ let users = {
 // Short Cut or short hand is -> Use Object Distructure format is => let{ need key name } = Object Name
 
 const {name,age} = users;
-console.log(name,age);
+// console.log(name,age);
 
 // Change Key Name
 const {name:userName,age:userAge} = users;
-console.log(userName,userAge);
+// console.log(userName,userAge);
 
 
 
@@ -97,6 +97,18 @@ console.log(userName,userAge);
 
 
 
+// For Of Loop
+
+
+let uses = {
+    name: `Pranto`,
+    age: 20,
+    email: "prantoislamnt51@gmail.com",
+    mobile: `01979728818`,
+    address: `Kushtia`,
+    id: 23303101
+}
+console.log(uses);
 
 
 
