@@ -36,7 +36,7 @@ let users_data = {
     id: 23303101
 }
 // Create Key and insert Value
-users_data.bloodGroup = `a+`;
+// users_data.bloodGroup = `a+`;
 
 // Update Value->
 // users_data.age = 40; // Update
@@ -97,18 +97,81 @@ const {name:userName,age:userAge} = users;
 
 
 
+// For Of Loop 
+// For of loop using only Array but we can use on Object it's have some Roles...
+
+
+
+// let uses = {
+//     name: `Pranto`,
+//     age: 20,
+//     email: "prantoislamnt51@gmail.com",
+//     mobile: `01979728818`,
+//     address: `Kushtia`,
+//     id: 23303101
+// };
+// console.log(uses);
 // For Of Loop
+// for(let useree of Object.keys(uses)){
+//   console.log(useree);
+// };
 
 
+// // Easy way
+// let arr = Object.keys(uses); // Arr is make a Array
+// console.log(arr); // Print Array
+// // Now use For of Loop
+// for ( let kk of arr){
+//   console.log(kk);
+// }
+
+
+
+// Get Full Data
+
+// let uses2 = {
+//     name: `Pranto`,
+//     age: 20,
+//     email: "prantoislamnt51@gmail.com",
+//     mobile: `01979728818`,
+//     address: `Kushtia`,
+//     id: 23303101
+// };
+
+// let total = Object.entries(uses2);
+// console.log(total);
+// // Using Loop
+
+// for(let [keys,value] of total){
+//   console.log(keys,value);
+// }
+
+
+
+
+
+
+// Object inside a Object
+// Call Nasted Object
 let uses = {
     name: `Pranto`,
     age: 20,
     email: "prantoislamnt51@gmail.com",
     mobile: `01979728818`,
-    address: `Kushtia`,
-    id: 23303101
-}
-console.log(uses);
+    id: 23303101,
+  address: {
+    city: 'Dahaka',
+    steet: 'Uttart',
+    postCode: 1230
+  }
+  
+};
+
+console.log(uses.address)
+
+
+
+
 
 
 
