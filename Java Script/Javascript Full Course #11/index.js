@@ -47,7 +47,7 @@
 
 
 // Closure -> Private Function 
-// Make A bank
+// Make A bank and balance is private 
 
 function myBank(){
   let balance = 500;
