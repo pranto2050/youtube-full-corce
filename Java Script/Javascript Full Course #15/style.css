@@ -1,0 +1,18 @@
+
+
+#top_heading{
+    color: deeppink;
+    text-align: center;
+}
+
+#advance_button{
+    text-align: center;
+    /*width: 100px;*/
+    /*height: 100px;*/
+    font-size: 20px;
+    border-radius: 20px;
+    /*border: none;*/
+    border: 1px solid red;
+    padding: 10px;
+    background-color: #FFBF00;
+}
