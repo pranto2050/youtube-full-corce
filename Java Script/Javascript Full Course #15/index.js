@@ -27,6 +27,42 @@ elementButton.addEventListener('click', ()=>{
 });
 
 
+// Advance
+let adv = document.getElementById("advance_button");
+
+adv.addEventListener('click',()=>{
+    console.log(adv);
+})
+
+
+
+
+
+
+// Div Ude -- Not Best Patice
+const parent = document.getElementById("onne");
+const findChild = parent.children
+
+for(let child of parent.children){
+    // console.log(child);
+    child.addEventListener('click',()=>{
+        child.style.color = "green";
+    })
+}
+
+
+
+// Use (e) Call Back Function
+const newDev = document.getElementById("myTwo");
+const childernss = newDev.children;
+
+for(let childdd of childernss){
+    // console.log(childdd);
+    childdd.addEventListener("click",(e)=>{
+        console.log(e.target) // Get The Target Value or Tage
+    })
+}
+
 
 
 
