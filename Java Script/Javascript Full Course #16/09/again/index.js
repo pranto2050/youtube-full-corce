@@ -20,21 +20,33 @@ clickMe.addEventListener("click", function (e) {
     tag.textContent = input.value;
     input.value = '';
 
+    // Delete Button
     const buttonMake = document.createElement("button");
     buttonMake.textContent = "Delete";
     buttonMake.classList.add("btn");
 
+
+    // Done Button
+    const doneButton = document.createElement("button");
+    doneButton.textContent = "Done";
+
     element.append(tag);
     element.append(buttonMake)
+    element.append(doneButton);
+
 
 
     let addChild = document.getElementById("list_show");
-
     addChild.appendChild(element);
 
 
-    buttonMake.addEventListener("click", function (e) {
+    buttonMake.addEventListener("click",(e) => {
         element.remove();
+    })
+
+    doneButton.addEventListener("click",(e) => {
+        doneButton.classList.add("btnDone");
+        buttonMake.style.display = "none";
     })
 
 

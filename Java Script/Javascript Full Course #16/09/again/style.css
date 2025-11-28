@@ -32,9 +32,21 @@
 .list h1{
     text-align: center;
 }
-.result{
+.result {
     width: 300px;
     display: flex;
-    flex-direction: column;
-    gap: 5px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    background-color: #fff3;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+
+.btnDone{
+    background-color: green;
+    border: 2px solid darkred;
+    /*display: none;*/
 }
